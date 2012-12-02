@@ -20,8 +20,10 @@ public class Line {
     }
 
     public boolean isWon() {
-        if (pieces.size() < 4) return false;
-        return (colorWin(pieces) || formWin(pieces) || heartWin(pieces) || sizeWin(pieces) );
+        if (pieces.size() < 4) {
+            return false;
+        }
+        return (colorWin(pieces) || formWin(pieces) || heartWin(pieces) || sizeWin(pieces));
     }
 
     private boolean colorWin(List<Piece> pieces) {
@@ -39,10 +41,11 @@ public class Line {
         boolean carre = true;
         for (Piece piece : pieces) {
             rond = rond && (piece.forme == Forme.RONDE);
-            carre = carre && (piece.forme  == Forme.CARREE);
+            carre = carre && (piece.forme == Forme.CARREE);
         }
         return rond || carre;
     }
+
     private boolean heartWin(List<Piece> pieces) {
         boolean plein = true;
         boolean creux = true;
@@ -62,9 +65,4 @@ public class Line {
         }
         return court || longue;
     }
-
-
-
-
-
 }
