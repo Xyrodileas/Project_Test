@@ -1,5 +1,4 @@
 package quarto;
 
-public class PionMemePlaceException extends Exception{
-
+public class PionMemePlaceException extends Exception {
 }
