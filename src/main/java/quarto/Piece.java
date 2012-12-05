@@ -7,7 +7,6 @@ public class Piece {
     public final Taille taille;
     public final Coeur coeur;
 
-
     public Piece(Couleur couleur, Forme forme, Taille taille, Coeur coeur) {
         this.couleur = couleur;
         this.forme = forme;
@@ -17,11 +16,10 @@ public class Piece {
 
     @Override
     public String toString() {
-        return "Piece{"+couleur +
-                ", " + forme +
-                ", " + taille +
-                ", " + coeur +
-                '}';
+        return "Piece{" + couleur
+                + ", " + forme
+                + ", " + taille
+                + ", " + coeur
+                + '}';
     }
-
 }

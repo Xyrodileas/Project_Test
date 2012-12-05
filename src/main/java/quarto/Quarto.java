@@ -5,7 +5,6 @@ import java.util.Random;
 
 public class Quarto {
 
-
     private List<Player> players;
     private Grid grid;
 
@@ -34,10 +33,11 @@ public class Quarto {
             } while (!pionPlace);
             grid.display();
             if (otherPlayer.declareQuarto()) {
-                if (grid.estGagnee())
+                if (grid.estGagnee()) {
                     otherPlayer.win();
-                else
+                } else {
                     System.out.println("Vous avez perdu, la partie n'est pas gagnante");
+                }
                 return;
             }
             Player temp = currentPlayer;
@@ -46,5 +46,4 @@ public class Quarto {
         }
         System.out.println("Math nul !");
     }
-
 }
