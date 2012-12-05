@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cd5a258-162e-4064-a8b0-4608e170329c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/quarto/Ordi.java" afterPath="$PROJECT_DIR$/src/main/java/quarto/Ordi.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/Test.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/quarto/HumanUnitTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/quarto/OrdiUnitTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="QuartoToTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,89 +63,153 @@
     <favorites_list name="QuartoToTest" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="PionBoxUnitTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/quarto/PionBoxUnitTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="6" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Grid.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/quarto/Grid.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="40" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.iml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Main.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="41" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/quarto/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="46" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Taille.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/quarto/Taille.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="12" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Quarto.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/quarto/Quarto.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="13" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Player.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/quarto/Player.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="17" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Ordi.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/quarto/Ordi.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="42" selection-start="297" selection-end="297" vertical-scroll-proportion="0.33452594">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Coeur.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/quarto/Coeur.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="12" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="vertical" split-proportion="0.6078767">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="Grid.java" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/quarto/Grid.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="13" column="23" selection-start="271" selection-end="271" vertical-scroll-proportion="0.058641974">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Piece.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/quarto/Piece.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="2" column="13" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Human.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/quarto/Human.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="32" column="49" selection-start="848" selection-end="848" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Line.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/quarto/Line.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="15" column="55" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="PionBox.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/quarto/PionBox.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="28" column="19" selection-start="827" selection-end="827" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Player.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/quarto/Player.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="2" column="17" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Ordi.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/quarto/Ordi.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="32" column="63" selection-start="1027" selection-end="1027" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Coeur.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/quarto/Coeur.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="3" column="12" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Couleur.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/quarto/Couleur.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="3" column="12" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Forme.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/quarto/Forme.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="3" column="12" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="OrdiUnitTest.java" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/java/quarto/OrdiUnitTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="13" column="13" selection-start="233" selection-end="233" vertical-scroll-proportion="0.92574257">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="LineUnitTest.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/quarto/LineUnitTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="6" column="0" selection-start="117" selection-end="164" vertical-scroll-proportion="0.0">
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="HumanUnitTest.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/quarto/HumanUnitTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="15" column="0" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="PionBoxUnitTest.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/quarto/PionBoxUnitTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="14" column="101" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="PositionUnitTest.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/quarto/PositionUnitTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="9" column="13" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -155,6 +223,10 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/quarto/Ordi.java" />
+        <option value="$PROJECT_DIR$/src/test/java/quarto/OrdiUnitTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/quarto/PionBoxUnitTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/quarto/Grid.java" />
+        <option value="$PROJECT_DIR$/src/test/java/quarto/HumanUnitTest.java" />
       </list>
     </option>
   </component>
@@ -173,7 +245,7 @@
     <OptionsSetting value="true" id="Edit" />
     <OptionsSetting value="true" id="Undo Check Out" />
     <OptionsSetting value="true" id="Get Latest Version" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -192,6 +264,16 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -212,6 +294,20 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="QuartoToTest" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="QuartoToTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -274,33 +370,55 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="preferences.externalResources" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
-  <component name="RunManager" selected="Application.Unnamed">
+  <component name="RunManager" selected="JUnit.PionBoxUnitTest.testPionsDisponibles">
+    <configuration default="false" name="PionBoxUnitTest.testPionsDisponibles" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="quarto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Main" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="quarto" />
+      <option name="MAIN_CLASS_NAME" value="quarto.PionBoxUnitTest" />
+      <option name="METHOD_NAME" value="testPionsDisponibles" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -438,8 +556,9 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Application.Unnamed" />
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.PionBoxUnitTest.testPionsDisponibles" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Unnamed" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -513,16 +632,16 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24886191" sideWeight="0.037671234" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.9623288" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15022762" sideWeight="0.95719177" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.06077348" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -579,6 +698,40 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Test" />
   </component>
+  <component name="VssConfiguration">
+    <option name="CLIENT_PATH" value="" />
+    <option name="SRCSAFEINI_PATH" value="" />
+    <option name="USER_NAME" value="" />
+    <option name="PWD" value="" />
+    <CheckoutOptions>
+      <option name="COMMENT" value="" />
+      <option name="DO_NOT_GET_LATEST_VERSION" value="false" />
+      <option name="REPLACE_WRITABLE" value="false" />
+      <option name="RECURSIVE" value="false" />
+    </CheckoutOptions>
+    <CheckinOptions>
+      <option name="COMMENT" value="" />
+      <option name="KEEP_CHECKED_OUT" value="false" />
+      <option name="RECURSIVE" value="false" />
+    </CheckinOptions>
+    <AddOptions>
+      <option name="STORE_ONLY_LATEST_VERSION" value="false" />
+      <option name="CHECK_OUT_IMMEDIATELY" value="false" />
+    </AddOptions>
+    <UndocheckoutOptions>
+      <option name="MAKE_WRITABLE" value="false" />
+      <option name="REPLACE_LOCAL_COPY" value="2" />
+      <option name="RECURSIVE" value="false" />
+    </UndocheckoutOptions>
+    <GetOptions>
+      <option name="REPLACE_WRITABLE" value="0" />
+      <option name="MAKE_WRITABLE" value="false" />
+      <option name="ANSWER_NEGATIVELY" value="false" />
+      <option name="ANSWER_POSITIVELY" value="false" />
+      <option name="RECURSIVE" value="false" />
+      <option name="VERSION" />
+    </GetOptions>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
@@ -587,63 +740,105 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/quarto/Piece.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/quarto/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="17" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/quarto/Ordi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="63" selection-start="1027" selection-end="1027" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/quarto/Coeur.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="12" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0">
+        <state line="3" column="12" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/quarto/Taille.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/quarto/Couleur.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="12" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0">
+        <state line="3" column="12" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/quarto/Quarto.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/quarto/Forme.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
+        <state line="3" column="12" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Main.iml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/quarto/Line.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="41" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0">
+        <state line="15" column="55" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/quarto/LineUnitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="117" selection-end="164" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/quarto/PionBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="19" selection-start="827" selection-end="827" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/quarto/Human.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="49" selection-start="848" selection-end="848" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/quarto/Grid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="40" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0">
+        <state line="13" column="23" selection-start="271" selection-end="271" vertical-scroll-proportion="0.058641974">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/quarto/HumanUnitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/quarto/PionBoxUnitTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="6" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/quarto/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="46" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0">
+        <state line="14" column="101" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/quarto/Player.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/quarto/PositionUnitTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="17" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0">
+        <state line="9" column="13" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/quarto/Ordi.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/quarto/OrdiUnitTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="42" selection-start="297" selection-end="297" vertical-scroll-proportion="0.33452594">
+        <state line="13" column="13" selection-start="233" selection-end="233" vertical-scroll-proportion="0.92574257">
           <folding />
         </state>
       </provider>
@@ -689,7 +884,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.6</last-edited>
+          <last-edited>1.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
