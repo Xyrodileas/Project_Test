@@ -75,4 +75,16 @@ public class GridUnitTest {
         
 
     }   
+    
+    public void isFreePositionTest() throws PionMemePlaceException
+    {
+        Piece p1 = new Piece(Couleur.CLAIRE,Forme.CARREE,Taille.BASSE,Coeur.CREUSE);
+        Piece p2 = new Piece(Couleur.FONCEE, Forme.CARREE, Taille.BASSE, Coeur.CREUSE);
+        PionBox box = new PionBox(Arrays.asList(p1,p2));
+        Grid g1 = new Grid(box);
+        Position posp1 = new Position(0,0);
+        Assert.assertTrue(g1.isFreePosition(posp1));
+        g1.ajoutPion(posp1, p1);
+        Assert.assertFalse(g1.isFreePosition(posp1));
+    }
 }
