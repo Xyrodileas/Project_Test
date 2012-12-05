@@ -22,13 +22,17 @@ public class HumanUnitTest {
         Piece p3 = new Piece(Couleur.CLAIRE, Forme.RONDE, Taille.BASSE, Coeur.CREUSE);
         Piece p4 = new Piece(Couleur.CLAIRE, Forme.CARREE, Taille.BASSE, Coeur.PLEINE);
         Piece p5 = new Piece(Couleur.CLAIRE, Forme.CARREE, Taille.HAUTE, Coeur.CREUSE);
-        PionBox box1 = new PionBox(Arrays.asList(p1, p2, p3, p4, p5));
+        PionBox box1 = new PionBox(Arrays.asList(p1, p2, p3, p4, p5, p1));
         Grid grid1 = new Grid(box1);
-        Scanner sc1 = new Scanner(2);
+        Scanner sc1 = new Scanner("2 4 3");
         Human h1 = new Human("NomTest", grid1, sc1);
 
-        //Forcer nextint() à être à 0
-        Assert.assertTrue(h1.getPieceToPlay() == p2);
+        //Test si la pièce retournée est bien p3
+        Assert.assertTrue(h1.getPieceToPlay() == p3);
+                                         // Problème ici, devrait retourner False
+        Assert.assertTrue(h1.getPieceToPlay() == p1);
+                                         // Pareil ici
+        Assert.assertFalse(h1.getPieceToPlay() == p4);
 
     }
 }
