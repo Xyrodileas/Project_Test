@@ -44,7 +44,7 @@ public class GridUnitTest {
     }
     
     @Test(expected=PionMemePlaceException.class)
-    public void ajoutPionExceptionTest() throws PionMemePlaceException{
+    public void ajoutPionTest() throws PionMemePlaceException{
         Piece p1 = new Piece(Couleur.CLAIRE,Forme.CARREE,Taille.BASSE,Coeur.CREUSE);
         Piece p2 = new Piece(Couleur.FONCEE, Forme.CARREE, Taille.BASSE, Coeur.CREUSE);
         PionBox box = new PionBox(Arrays.asList(p1,p2));
@@ -53,8 +53,26 @@ public class GridUnitTest {
         Position posp2 = new Position(0,0); 
         g1.ajoutPion(posp1, p1);
         g1.ajoutPion(posp2, p2);
+        
+  
+        // incomplet!! Il faut pouvoir tester la valeur de hist
+        //Possède Une opération inutiles
+        // Oublie de l'utilisation de IsFree, rendIndisponible
     }
 
-    
-    
+    @Test
+    public void undoTest() throws PionMemePlaceException{
+        Piece p1 = new Piece(Couleur.CLAIRE,Forme.CARREE,Taille.BASSE,Coeur.CREUSE);
+        Piece p2 = new Piece(Couleur.FONCEE, Forme.CARREE, Taille.BASSE, Coeur.CREUSE);
+        PionBox box = new PionBox(Arrays.asList(p1,p2));
+        Grid g1 = new Grid(box);
+        Position posp1 = new Position(0,0);
+        Position posp2 = new Position(0,1); 
+        g1.ajoutPion(posp1, p1);
+        
+        g1.ajoutPion(posp2, p2);
+        g1.undo();
+        
+
+    }   
 }
