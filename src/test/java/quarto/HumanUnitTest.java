@@ -7,12 +7,28 @@ package quarto;
  * Time: 10:35
  * To change this template use File | Settings | File Templates.
  */
+import org.junit.Assert;
 import org.junit.Test;
+import java.util.Scanner;
+import java.util.Arrays;
 
 public class HumanUnitTest {
 
     @Test
-    public void getPieceToPlay() {
+    public void testgetPieceToPlay() {
+        //Création des pièces pour la liste PionBox
+        Piece p1 = new Piece(Couleur.CLAIRE, Forme.CARREE, Taille.BASSE, Coeur.CREUSE);
+        Piece p2 = new Piece(Couleur.FONCEE, Forme.CARREE, Taille.BASSE, Coeur.CREUSE);
+        Piece p3 = new Piece(Couleur.CLAIRE, Forme.RONDE, Taille.BASSE, Coeur.CREUSE);
+        Piece p4 = new Piece(Couleur.CLAIRE, Forme.CARREE, Taille.BASSE, Coeur.PLEINE);
+        Piece p5 = new Piece(Couleur.CLAIRE, Forme.CARREE, Taille.HAUTE, Coeur.CREUSE);
+        PionBox box1 = new PionBox(Arrays.asList(p1, p2, p3, p4, p5));
+        Grid grid1 = new Grid(box1);
+        Scanner sc1 = new Scanner(2);
+        Human h1 = new Human("NomTest", grid1, sc1);
+
+        //Forcer nextint() à être à 0
+        Assert.assertTrue(h1.getPieceToPlay() == p2);
 
     }
 }
