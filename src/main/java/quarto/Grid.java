@@ -16,11 +16,11 @@ public class Grid {
         hist = new Stack<Position>();
     }
 
-    public Piece[][] getTabPion() {
+    public Piece[][] getTabPion() { //TODO
         return tabPion;
     }
 
-    public List<Piece> getPionsDisponibles() {
+    public List<Piece> getPionsDisponibles() { //DONE
         return box.getPionsDisponibles();
     }
 
@@ -94,6 +94,7 @@ public class Grid {
         return (box.isEmpty() && !estGagnee());
     }
 
+    @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < TAILLE; ++i) {
@@ -169,7 +170,7 @@ public class Grid {
         }
     }
 
-    public boolean isFreePosition(Position pos) {
+    public boolean isFreePosition(Position pos) { //DONE
         return (tabPion[pos.getX()][pos.getY()] == null);
     }
 }
