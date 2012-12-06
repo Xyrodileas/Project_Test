@@ -26,6 +26,8 @@ public class Human implements Player {
             System.out.println(i + " : " + pions.get(i));
         }
         System.out.print("Indice du pion a donner ? ");
+        // TODO
+        // Surement une modification à faire, on essais de faire "nextInt()" sans vérifier s'il y a un int avec "hasInt()"
         int indice = sc.nextInt();
 
         Piece piece = pions.get(indice);
