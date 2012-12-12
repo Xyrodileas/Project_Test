@@ -37,7 +37,7 @@ public class Ordi implements Player {
         return pionsGagnants;
     }
 
-    private boolean existPositionGagnante(Grid grille, Piece pion) {
+    private boolean existPositionGagnante(Grid grille, Piece pion) {   // TODO
         for (int i = 0; i < 4; i++) {
             Line rangee = grille.extractLine(i);
             rangee.add(pion);

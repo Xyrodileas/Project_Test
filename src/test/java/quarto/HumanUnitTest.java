@@ -49,4 +49,20 @@ public class HumanUnitTest {
         Position pos1 = new Position(3, 4);
         pos1.equals(h1.getPositionToPlay(p1));
     }
+    @Test
+    public void declareQuarto(){
+        Piece p5 = new Piece(Couleur.CLAIRE, Forme.CARREE, Taille.HAUTE, Coeur.CREUSE);
+        PionBox box1 = new PionBox(Arrays.asList(p5));
+        Grid grid1 = new Grid(box1);
+        Scanner sc1 = new Scanner("True");
+        Human h1 = new Human("NomTest", grid1, sc1);
+        Scanner sc2 = new Scanner("False");
+        Human h2 = new Human("NomTest", grid1, sc2);
+        Scanner sc3 = new Scanner("Err");
+        Human h3 = new Human("NomTest", grid1, sc3);
+        h1.declareQuarto();
+        h2.declareQuarto();
+        h3.declareQuarto();
+
+    }
 }

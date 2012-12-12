@@ -58,9 +58,9 @@ public class Human implements Player {
     }
 
     @Override
-    public boolean declareQuarto() {
+    public boolean declareQuarto() { //TODO
         System.out.println("Quarto (true/false) ?");
-        return sc.nextBoolean();
+        return sc.nextBoolean();                       // Ajouter une vérification s'il y a bien une Boolean
     }
 
     @Override
