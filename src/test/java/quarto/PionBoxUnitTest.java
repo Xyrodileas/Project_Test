@@ -70,7 +70,7 @@ public class PionBoxUnitTest {
         int x;
         boolean jr = true;
         for(x=0; x<=15;x++){
-            if(!(comparePiece(list1.get(x),list2.get(x))))                              t
+            if(!(comparePiece(list1.get(x),list2.get(x))))
                 jr = false;
         }
         Assert.assertTrue(jr);
