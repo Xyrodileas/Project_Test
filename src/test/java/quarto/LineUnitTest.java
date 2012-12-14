@@ -48,6 +48,5 @@ public class LineUnitTest {
         ligne1.add(p3);
         ligne1.add(p5);
         Assert.assertTrue(ligne1.isWon());
-
     }
 }
