@@ -7,8 +7,9 @@ import java.util.Random;
 public class Ordi implements Player {
 
     public String name;
-    protected Grid grille;
+    protected static Grid grille;
     private final OrdiTool ordiTool = new OrdiTool();
+
 
     public Ordi(String name, Grid grille) {
         this.name = name;
@@ -39,33 +40,16 @@ public class Ordi implements Player {
     }
 
     private boolean existPositionGagnante(Grid grille, Piece pion) {   // TODO
-        return ordiTool.existPositionGagnante(grille, pion);
+        return OrdiTool.existPositionGagnante(grille, pion);
     }
 
     @Override
     public Position getPositionToPlay(Piece p) {
-        List<Position> positionsJouables = ordiTool.positionsLibres(grille);
-        boolean foundPosition = false;
-        for (Position positionJouable : positionsJouables) {
-            try {
-                grille.ajoutPion(positionJouable, p);
-            } catch (PionMemePlaceException e) {
-                throw new RuntimeException("it can't be");
-            }
-            if (grille.estGagnee()) {
-                foundPosition = true;
-            }
-            grille.undo();
-            if (foundPosition) {
-                return positionJouable;
-            }
-        }
-        Random random = new Random();
-        return positionsJouables.get(random.nextInt(positionsJouables.size()));
+        return OrdiTool.getPositionToPlay(p);
     }
 
     private List<Position> positionsLibres(Grid grille) {
-        return ordiTool.positionsLibres(grille);
+        return OrdiTool.positionsLibres(grille);
     }
 
     @Override
@@ -77,4 +61,6 @@ public class Ordi implements Player {
     public void win() {
         System.out.println("QUARTO");
     }
+
+
 }

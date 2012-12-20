@@ -19,9 +19,9 @@ public class OrdiUnitTest {
 
         Grid gr1 = new Grid(box1);
         Ordi ord1 = new Ordi("Xyro", gr1);
-        //TODO
+
         // Forcer le random à retourner une valeur connu (p1?)
-        Assert.assertTrue(ord1.getPieceToPlay() == p1);
+        Assert.assertTrue(OrdiTool.getPieceToPlay() == p1);
     }
     @Test
     public void existPositionGagnanteTest() throws PionMemePlaceException{

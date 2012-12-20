@@ -2,10 +2,17 @@ package quarto;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
+
+import static quarto.Ordi.*;
 
 public class OrdiTool {
+
+
     public OrdiTool() {
+
     }
+
 
     static boolean existPositionGagnante(Grid grille, Piece pion) {   // TODO
         for (int i = 0; i < 4; i++) {
@@ -44,4 +51,28 @@ public class OrdiTool {
         }
         return positions;
     }
+
+
+    public static Position getPositionToPlay(Piece p) {
+        List<Position> positionsJouables = positionsLibres(Ordi.grille);
+        boolean foundPosition = false;
+        for (Position positionJouable : positionsJouables) {
+            try {
+                Ordi.grille.ajoutPion(positionJouable, p);
+            } catch (PionMemePlaceException e) {
+                throw new RuntimeException("it can't be");
+            }
+            if (grille.estGagnee()) {
+                foundPosition = true;
+            }
+            Ordi.grille.undo();
+            if (foundPosition) {
+                return positionJouable;
+            }
+        }
+        Random random = new Random();
+        return positionsJouables.get(1);
+    }
+
+
 }
