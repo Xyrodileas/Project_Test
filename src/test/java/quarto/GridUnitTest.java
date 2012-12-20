@@ -4,9 +4,13 @@
  */
 package quarto;
 
+import org.junit.After;
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.Test;
 
+import java.io.ByteArrayOutputStream;
+import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -231,5 +235,39 @@ public class GridUnitTest {
         g1.rendIndisponible(p1);
 
         Assert.assertTrue(g1.isPat());
+    }
+    private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+    private final ByteArrayOutputStream errContent = new ByteArrayOutputStream();
+    @Before
+    public void setUpStreams() {
+        System.setOut(new PrintStream(outContent));
+        System.setErr(new PrintStream(errContent));
+
+    }
+    @After
+    public void cleanUpStreams() {
+        System.setOut(null);
+        System.setErr(null);
+    }
+    @Test
+    public void displayTest() throws PionMemePlaceException {
+        Piece p1 = new Piece(Couleur.CLAIRE, Forme.CARREE, Taille.HAUTE, Coeur.PLEINE);
+        Piece p2 = new Piece(Couleur.FONCEE, Forme.CARREE, Taille.BASSE, Coeur.CREUSE);
+        PionBox box = new PionBox(Arrays.asList(p1, p2));
+        Grid g1 = new Grid(box);
+        Position posp1 = new Position(3, 2);
+        Position posp2 = new Position(0, 1);
+        g1.ajoutPion(posp1, p1);
+
+        g1.display();
+
+        Assert.assertEquals("                                     |                                      |                                      |                                      | \r\n" +
+                "------------------------------------------------------------------------------------------------------------------------------------------------------------------------\r\n" +
+                "                                     |                                      |                                      |                                      | \r\n" +
+                "------------------------------------------------------------------------------------------------------------------------------------------------------------------------\r\n" +
+                "                                     |                                      |                                      |                                      | \r\n" +
+                "------------------------------------------------------------------------------------------------------------------------------------------------------------------------\r\n" +
+                "                                     |                                      | Piece{CLAIRE, CARREE, HAUTE, PLEINE} |                                      | \r\n" +
+                "------------------------------------------------------------------------------------------------------------------------------------------------------------------------\r\n", outContent.toString());
     }
 }

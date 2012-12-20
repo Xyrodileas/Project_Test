@@ -65,6 +65,6 @@ public class Human implements Player {
 
     @Override
     public void win() {
-        System.out.println("Congratulation, You win !!!");
+        System.out.print("Congratulation, You win !!!");
     }
 }
