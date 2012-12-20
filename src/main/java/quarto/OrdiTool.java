@@ -13,6 +13,16 @@ public class OrdiTool {
 
     }
 
+    List<Piece> filtrePionsGagnants(List<Piece> pionsDisponibles) {
+        List<Piece> pionsGagnants = new ArrayList<Piece>();
+        for (Piece pion : pionsDisponibles) {
+            if (existPositionGagnante(Ordi.grille, pion)) {
+                pionsGagnants.add(pion);
+            }
+        }
+        return pionsGagnants;
+    }
+
 
     static boolean existPositionGagnante(Grid grille, Piece pion) {   // TODO
         for (int i = 0; i < 4; i++) {
@@ -71,7 +81,20 @@ public class OrdiTool {
             }
         }
         Random random = new Random();
-        return positionsJouables.get(1);
+        return positionsJouables.get(0);
+    }
+
+
+    public Piece getPieceToPlay() {
+        List<Piece> pionsDisponibles = Ordi.grille.getPionsDisponibles();
+        pionsDisponibles.removeAll(filtrePionsGagnants(pionsDisponibles));
+        if (pionsDisponibles.isEmpty()) {
+            pionsDisponibles = Ordi.grille.getPionsDisponibles();
+        }
+        Random random = new Random();
+        Piece piece = pionsDisponibles.get(0);
+        Ordi.grille.rendIndisponible(piece);
+        return piece;
     }
 
 

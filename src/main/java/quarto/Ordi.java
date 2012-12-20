@@ -1,14 +1,13 @@
 package quarto;
 
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 
 public class Ordi implements Player {
 
     public String name;
     protected static Grid grille;
     private final OrdiTool ordiTool = new OrdiTool();
+
 
 
     public Ordi(String name, Grid grille) {
@@ -18,25 +17,7 @@ public class Ordi implements Player {
 
     @Override
     public Piece getPieceToPlay() {
-        List<Piece> pionsDisponibles = grille.getPionsDisponibles();
-        pionsDisponibles.removeAll(filtrePionsGagnants(pionsDisponibles));
-        if (pionsDisponibles.isEmpty()) {
-            pionsDisponibles = grille.getPionsDisponibles();
-        }
-        Random random = new Random();
-        Piece piece = pionsDisponibles.get(random.nextInt(pionsDisponibles.size()));
-        grille.rendIndisponible(piece);
-        return piece;
-    }
-
-    private List<Piece> filtrePionsGagnants(List<Piece> pionsDisponibles) {
-        List<Piece> pionsGagnants = new ArrayList<Piece>();
-        for (Piece pion : pionsDisponibles) {
-            if (ordiTool.existPositionGagnante(grille, pion)) {
-                pionsGagnants.add(pion);
-            }
-        }
-        return pionsGagnants;
+        return ordiTool.getPieceToPlay();
     }
 
     private boolean existPositionGagnante(Grid grille, Piece pion) {   // TODO

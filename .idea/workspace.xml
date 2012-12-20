@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cd5a258-162e-4064-a8b0-4608e170329c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/quarto/OrdiTool2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/quarto/OrdiToolUnitTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/quarto/QuartoUnitTest.java" />
+      <change type="DELETED" beforePath="C:\Users\Alexis\Documents\GitHub\Project_Test\src\main\java\quarto\OrdiTool2.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/quarto/Ordi.java" afterPath="$PROJECT_DIR$/src/main/java/quarto/Ordi.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/quarto/OrdiTool.java" afterPath="$PROJECT_DIR$/src/main/java/quarto/OrdiTool.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/quarto/GridUnitTest.java" afterPath="$PROJECT_DIR$/src/test/java/quarto/GridUnitTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/quarto/HumanUnitTest.java" afterPath="$PROJECT_DIR$/src/test/java/quarto/HumanUnitTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/quarto/OrdiToolUnitTest.java" afterPath="$PROJECT_DIR$/src/test/java/quarto/OrdiToolUnitTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/quarto/OrdiUnitTest.java" afterPath="$PROJECT_DIR$/src/test/java/quarto/OrdiUnitTest.java" />
     </list>
     <ignored path="QuartoToTest.iws" />
@@ -19,10 +22,13 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/QuartoToTest$quarto_in_Main.coverage" NAME="quarto in Main Coverage Results" MODIFIED="1356007354997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/QuartoToTest$quarto_in_Main.coverage" NAME="quarto in Main Coverage Results" MODIFIED="1356017206589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>quarto.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/QuartoToTest$HumanUnitTest_winTest.coverage" NAME="HumanUnitTest.winTest Coverage Results" MODIFIED="1355989787978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>quarto.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/QuartoToTest$OrdiToolUnitTest_getPieceToPlay.coverage" NAME="OrdiToolUnitTest.getPieceToPlay Coverage Results" MODIFIED="1356015698941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>quarto.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/QuartoToTest$LineUnitTest.coverage" NAME="LineUnitTest Coverage Results" MODIFIED="1354872778578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -75,49 +81,13 @@
     <favorites_list name="QuartoToTest" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.24318182">
+    <splitter split-orientation="vertical" split-proportion="0.7670454">
       <split-first>
         <leaf>
-          <file leaf-file-name="PionBox.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/quarto/PionBox.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="19" column="37" selection-start="617" selection-end="620" vertical-scroll-proportion="-3.6">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="Human.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/quarto/Human.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="60" column="39" selection-start="1710" selection-end="1710" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Grid.java" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/quarto/Grid.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="171" column="11" selection-start="4751" selection-end="4751" vertical-scroll-proportion="48.913044">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Piece.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/quarto/Piece.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="2" selection-start="1" selection-end="2" vertical-scroll-proportion="-0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/quarto/Main.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="6" column="13" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
+                <state line="70" column="44" selection-start="1987" selection-end="1987" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -126,8 +96,10 @@
           <file leaf-file-name="Quarto.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/quarto/Quarto.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="5" column="13" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
-                  <folding />
+                <state line="46" column="56" selection-start="1477" selection-end="1477" vertical-scroll-proportion="0.0">
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -135,16 +107,7 @@
           <file leaf-file-name="Ordi.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/quarto/Ordi.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="8" column="23" selection-start="156" selection-end="156" vertical-scroll-proportion="10.24">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="OrdiTool2.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/quarto/OrdiTool2.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="5" column="50" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0">
+                <state line="9" column="44" selection-start="192" selection-end="192" vertical-scroll-proportion="-6.12">
                   <folding />
                 </state>
               </provider>
@@ -153,10 +116,47 @@
           <file leaf-file-name="OrdiTool.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/quarto/OrdiTool.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="76" column="0" selection-start="2097" selection-end="2097" vertical-scroll-proportion="0.0">
+                <state line="91" column="57" selection-start="2718" selection-end="2718" vertical-scroll-proportion="-15.32">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Taille.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/quarto/Taille.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="2" column="12" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Grid.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/quarto/Grid.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="44" column="33" selection-start="1076" selection-end="1076" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="QuartoUnitTest.java" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/java/quarto/QuartoUnitTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="73" column="0" selection-start="3183" selection-end="3183" vertical-scroll-proportion="0.3324397">
                   <folding>
-                    <element signature="imports" expanded="true" />
+                    <element signature="e#3116#3124#0" expanded="true" />
+                    <element signature="e#3398#3406#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="OrdiUnitTest.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/quarto/OrdiUnitTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="75" column="69" selection-start="2845" selection-end="2852" vertical-scroll-proportion="-3.36">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -177,28 +177,17 @@
           <file leaf-file-name="GridUnitTest.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/quarto/GridUnitTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="264" column="170" selection-start="9420" selection-end="9420" vertical-scroll-proportion="0.0">
+                <state line="212" column="0" selection-start="7613" selection-end="7613" vertical-scroll-proportion="-38.68">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="OrdiUnitTest.java" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test/java/quarto/OrdiUnitTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="40" column="76" selection-start="1753" selection-end="1753" vertical-scroll-proportion="0.3632653">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="OrdiToolUnitTest.java" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="OrdiToolUnitTest.java" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/quarto/OrdiToolUnitTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="91" column="5" selection-start="3876" selection-end="3876" vertical-scroll-proportion="0.0">
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
+                <state line="29" column="0" selection-start="979" selection-end="979" vertical-scroll-proportion="1.0721649">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -215,7 +204,7 @@
           <file leaf-file-name="HumanUnitTest.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/quarto/HumanUnitTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="112" column="63" selection-start="4298" selection-end="4319" vertical-scroll-proportion="0.0">
+                <state line="66" column="14" selection-start="2594" selection-end="2594" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -245,20 +234,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/quarto/LineUnitTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/quarto/PionBox.java" />
         <option value="$PROJECT_DIR$/src/test/java/quarto/PionBoxUnitTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/quarto/Grid.java" />
         <option value="$PROJECT_DIR$/src/main/java/quarto/LineInterace.java" />
         <option value="$PROJECT_DIR$/src/main/java/quarto/Line.java" />
-        <option value="$PROJECT_DIR$/src/main/java/quarto/Human.java" />
-        <option value="$PROJECT_DIR$/src/test/java/quarto/HumanUnitTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/quarto/GridUnitTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/quarto/OrdiTool2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/quarto/Ordi.java" />
-        <option value="$PROJECT_DIR$/src/test/java/quarto/OrdiToolUnitTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/quarto/QuartoToolBox.java" />
+        <option value="$PROJECT_DIR$/src/main/java/quarto/Quarto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/quarto/Human.java" />
         <option value="$PROJECT_DIR$/src/test/java/quarto/OrdiUnitTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/quarto/OrdiToolUnitTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/quarto/HumanUnitTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/quarto/QuartoUnitTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/quarto/GridUnitTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/quarto/OrdiTool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/quarto/Ordi.java" />
       </list>
     </option>
   </component>
@@ -266,10 +257,10 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="-1688" />
+    <option name="y" value="-90" />
+    <option name="width" value="1696" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -299,6 +290,16 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -395,16 +396,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -421,17 +412,17 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="quarto" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.OrdiToolUnitTest.getPieceToPlay">
-    <configuration default="false" name="HumanUnitTest.winTest" type="JUnit" factoryName="JUnit" temporary="true">
+  <component name="RunManager" selected="JUnit.quarto in Main">
+    <configuration default="false" name="OrdiToolUnitTest.getPieceToPlay" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="quarto.*" />
@@ -442,8 +433,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="quarto" />
-      <option name="MAIN_CLASS_NAME" value="quarto.HumanUnitTest" />
-      <option name="METHOD_NAME" value="winTest" />
+      <option name="MAIN_CLASS_NAME" value="quarto.OrdiToolUnitTest" />
+      <option name="METHOD_NAME" value="getPieceToPlay" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -461,7 +452,7 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="GridUnitTest.diplayTest" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="HumanUnitTest.declareQuarto" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="quarto.*" />
@@ -472,36 +463,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="quarto" />
-      <option name="MAIN_CLASS_NAME" value="quarto.GridUnitTest" />
-      <option name="METHOD_NAME" value="diplayTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="GridUnitTest.displayTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="quarto.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Main" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="quarto" />
-      <option name="MAIN_CLASS_NAME" value="quarto.GridUnitTest" />
-      <option name="METHOD_NAME" value="displayTest" />
+      <option name="MAIN_CLASS_NAME" value="quarto.HumanUnitTest" />
+      <option name="METHOD_NAME" value="declareQuarto" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -545,7 +508,7 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="OrdiToolUnitTest.getPieceToPlay" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="quarto in Main" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="quarto.*" />
@@ -556,8 +519,36 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="quarto" />
-      <option name="MAIN_CLASS_NAME" value="quarto.OrdiToolUnitTest" />
-      <option name="METHOD_NAME" value="getPieceToPlay" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Cover" />
+      <ConfigurationWrapper RunnerId="Cover" />
+      <method />
+    </configuration>
+    <configuration default="false" name="QuartoUnitTest.PlayTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="quarto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Main" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="quarto" />
+      <option name="MAIN_CLASS_NAME" value="quarto.QuartoUnitTest" />
+      <option name="METHOD_NAME" value="PlayTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -596,6 +587,24 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -622,24 +631,6 @@
       <envs />
       <properties />
       <listeners />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -766,15 +757,44 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="8">
+    <configuration default="false" name="OrdiUnitTest.getPositionToPlayTest" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="quarto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Main" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="quarto" />
+      <option name="MAIN_CLASS_NAME" value="quarto.OrdiUnitTest" />
+      <option name="METHOD_NAME" value="getPositionToPlayTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="9">
       <item index="0" class="java.lang.String" itemvalue="Application.Unnamed" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.HumanUnitTest.winTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.HumanUnitTest.testgetPositionToPlay" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.GridUnitTest.diplayTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.GridUnitTest" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.GridUnitTest.displayTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.HumanUnitTest.testgetPositionToPlay" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.GridUnitTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.OrdiUnitTest.getPositionToPlayTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.OrdiToolUnitTest.getPieceToPlay" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.HumanUnitTest.declareQuarto" />
       <item index="6" class="java.lang.String" itemvalue="JUnit.OrdiUnitTest.getPieceToPlay" />
-      <item index="7" class="java.lang.String" itemvalue="JUnit.OrdiToolUnitTest.getPieceToPlay" />
+      <item index="7" class="java.lang.String" itemvalue="JUnit.quarto in Main" />
+      <item index="8" class="java.lang.String" itemvalue="JUnit.QuartoUnitTest.PlayTest" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -834,32 +854,32 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-1688" y="-90" width="1696" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32781458" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22089042" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23596358" sideWeight="0.75342464" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22075056" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25061274" sideWeight="0.58278143" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.11643836" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928678" sideWeight="0.36472604" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928678" sideWeight="0.36472604" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15022762" sideWeight="0.75342464" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24657534" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15196079" sideWeight="0.58278143" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41721854" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962063" sideWeight="0.8476027" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962063" sideWeight="0.8476027" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -957,101 +977,86 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/quarto/PionBoxUnitTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="8" selection-start="934" selection-end="1013" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/quarto/Position.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="45" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/quarto/PieceUnitTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/quarto/HumanUnitTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="112" column="63" selection-start="4298" selection-end="4319" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/quarto/Piece.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="2" selection-start="1" selection-end="2" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/quarto/PionBox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="37" selection-start="617" selection-end="620" vertical-scroll-proportion="-3.6">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_01/src.zip!/java/util/Scanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2117" column="45" selection-start="80373" selection-end="80373" vertical-scroll-proportion="0.10119048">
+        <state line="13" column="13" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/quarto/Human.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="39" selection-start="1710" selection-end="1710" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/quarto/OrdiTool2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="50" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0">
+        <state line="70" column="44" selection-start="1987" selection-end="1987" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/quarto/Quarto.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/quarto/HumanUnitTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
+        <state line="66" column="14" selection-start="2594" selection-end="2594" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/quarto/Ordi.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/quarto/Grid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="23" selection-start="156" selection-end="156" vertical-scroll-proportion="10.24">
+        <state line="44" column="33" selection-start="1076" selection-end="1076" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/quarto/PionBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="37" selection-start="617" selection-end="620" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/quarto/GridUnitTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="264" column="170" selection-start="9420" selection-end="9420" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/quarto/OrdiTool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="0" selection-start="2097" selection-end="2097" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/quarto/Grid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="171" column="11" selection-start="4751" selection-end="4751" vertical-scroll-proportion="48.913044">
+        <state line="212" column="0" selection-start="7613" selection-end="7613" vertical-scroll-proportion="-38.68">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/quarto/OrdiToolUnitTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="5" selection-start="3876" selection-end="3876" vertical-scroll-proportion="0.0">
+        <state line="29" column="0" selection-start="979" selection-end="979" vertical-scroll-proportion="1.0721649">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/quarto/Piece.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="2" selection-start="1" selection-end="2" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/quarto/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="112" selection-start="296" selection-end="400" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/quarto/OrdiTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="57" selection-start="2718" selection-end="2718" vertical-scroll-proportion="-15.32">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/quarto/Ordi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="44" selection-start="192" selection-end="192" vertical-scroll-proportion="-6.12">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/quarto/Quarto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="56" selection-start="1477" selection-end="1477" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1060,8 +1065,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/quarto/OrdiUnitTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="76" selection-start="1753" selection-end="1753" vertical-scroll-proportion="0.3632653">
+        <state line="75" column="69" selection-start="2845" selection-end="2852" vertical-scroll-proportion="-3.36">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/quarto/QuartoUnitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="0" selection-start="3183" selection-end="3183" vertical-scroll-proportion="0.3324397">
+          <folding>
+            <element signature="e#3116#3124#0" expanded="true" />
+            <element signature="e#3398#3406#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

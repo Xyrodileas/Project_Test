@@ -211,21 +211,6 @@ public class GridUnitTest {
 
     }
 
-    @Test
-    public void extractLineTest() {
-    }
-
-    @Test
-    public void extractColumnTest() {
-    }
-
-    @Test
-    public void extractSecondDiagonalTest() {
-    }
-
-    @Test
-    public void extractFirstDiagonalTest() {
-    }
 
     @Test
     public void isPatTest() {
