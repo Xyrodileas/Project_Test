@@ -4,11 +4,12 @@
  */
 package quarto;
 
+import org.junit.Assert;
+import org.junit.Test;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import org.junit.Assert;
-import org.junit.Test;
 
 /**
  *
@@ -84,5 +85,24 @@ public class GridUnitTest {
         Assert.assertTrue(g1.isFreePosition(posp1));
         g1.ajoutPion(posp1, p1);
         Assert.assertFalse(g1.isFreePosition(posp1));
+    }
+
+    @Test
+    public void extractLineTest() throws PionMemePlaceException {
+        List<Piece> pionsDisponibles = new ArrayList<Piece>();
+        Piece p1 = new Piece(Couleur.CLAIRE, Forme.CARREE, Taille.BASSE, Coeur.CREUSE);
+        pionsDisponibles.add(p1);
+        PionBox box = new PionBox(pionsDisponibles);
+
+        Grid g1 = new Grid(box);
+        Position x = new Position(1, 1);
+        g1.ajoutPion(x, p1);          // tabPion est pas initialisé à NULL
+
+        Line ligne1 = g1.extractLine(1);
+
+        Line ligne2 = new Line();
+        ligne2.add(p1);
+
+
     }
 }

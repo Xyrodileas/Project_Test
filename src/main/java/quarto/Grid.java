@@ -24,7 +24,7 @@ public class Grid {
         return box.getPionsDisponibles();
     }
 
-    public void ajoutPion(Position pos, Piece pionAJouer) throws PionMemePlaceException {
+    public void ajoutPion(Position pos, Piece pionAJouer) throws PionMemePlaceException {   //TODO
         int x = pos.getX();
         int y = pos.getY();
         if (tabPion[x][y] != null) {

@@ -8,6 +8,7 @@ public class Ordi implements Player {
 
     public String name;
     protected Grid grille;
+    private final OrdiTool ordiTool = new OrdiTool();
 
     public Ordi(String name, Grid grille) {
         this.name = name;
@@ -30,7 +31,7 @@ public class Ordi implements Player {
     private List<Piece> filtrePionsGagnants(List<Piece> pionsDisponibles) {
         List<Piece> pionsGagnants = new ArrayList<Piece>();
         for (Piece pion : pionsDisponibles) {
-            if (existPositionGagnante(grille, pion)) {
+            if (ordiTool.existPositionGagnante(grille, pion)) {
                 pionsGagnants.add(pion);
             }
         }
@@ -38,33 +39,12 @@ public class Ordi implements Player {
     }
 
     private boolean existPositionGagnante(Grid grille, Piece pion) {   // TODO
-        for (int i = 0; i < 4; i++) {
-            Line rangee = grille.extractLine(i);
-            rangee.add(pion);
-            if (rangee.isWon()) {
-                return true;
-            }
-        }
-        for (int i = 0; i < 4; i++) {
-            Line rangee = grille.extractColumn(i);
-            rangee.add(pion);
-            if (rangee.isWon()) {
-                return true;
-            }
-        }
-        Line rangee = grille.extractFirstDiagonal();
-        rangee.add(pion);
-        if (rangee.isWon()) {
-            return true;
-        }
-        rangee = grille.extractSecondDiagonal();
-        rangee.add(pion);
-        return rangee.isWon();
+        return ordiTool.existPositionGagnante(grille, pion);
     }
 
     @Override
     public Position getPositionToPlay(Piece p) {
-        List<Position> positionsJouables = positionsLibres(grille);
+        List<Position> positionsJouables = ordiTool.positionsLibres(grille);
         boolean foundPosition = false;
         for (Position positionJouable : positionsJouables) {
             try {
@@ -85,16 +65,7 @@ public class Ordi implements Player {
     }
 
     private List<Position> positionsLibres(Grid grille) {
-        List<Position> positions = new ArrayList<Position>();
-        for (int i = 0; i < Grid.TAILLE; ++i) {
-            for (int j = 0; j < Grid.TAILLE; ++j) {
-                Position pos = new Position(i, j);
-                if (grille.isFreePosition(pos)) {
-                    positions.add(pos);
-                }
-            }
-        }
-        return positions;
+        return ordiTool.positionsLibres(grille);
     }
 
     @Override
